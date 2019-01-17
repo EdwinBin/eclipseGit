@@ -110,7 +110,7 @@ public abstract class CertificateEncryptor
      */
     private static Certificate getCertificate(String keyStorePath,
             String alias, String password) throws Exception
-    {//fsdfsdfsdf
+    {//123242342342342
 
         // ªÒµ√√‹‘øø‚
         KeyStore ks = getKeyStore(keyStorePath, password);

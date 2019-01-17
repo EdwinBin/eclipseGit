@@ -46,7 +46,6 @@ public abstract class CertificateEncryptor
 
         // 获得私钥
         return (PrivateKey) ks.getKey(alias, password.toCharArray());
-
     }
 
     /**
@@ -111,7 +110,7 @@ public abstract class CertificateEncryptor
      */
     private static Certificate getCertificate(String keyStorePath,
             String alias, String password) throws Exception
-    {
+    {//fsdfsdfsdf
 
         // 获得密钥库
         KeyStore ks = getKeyStore(keyStorePath, password);
